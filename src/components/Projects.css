@@ -1,0 +1,78 @@
+.projects-section { padding: 5rem 0; }
+
+.projects-head { margin-bottom: 3rem; }
+
+/* ── Filter Bar ── */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 1.5rem;
+}
+.filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 8px 20px;
+  font-size: 0.84rem;
+  font-weight: 500;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: 'DM Sans', sans-serif;
+  white-space: nowrap;
+}
+.filter-btn:hover {
+  border-color: var(--border-bright);
+  color: var(--text);
+}
+.filter-btn-active {
+  background: var(--purple-600) !important;
+  border-color: var(--purple-600) !important;
+  color: #fff !important;
+}
+.filter-count {
+  background: rgba(127,119,221,0.15);
+  color: var(--purple-400);
+  border-radius: 100px;
+  padding: 1px 8px;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+.filter-count-active {
+  background: rgba(255,255,255,0.18) !important;
+  color: #fff !important;
+}
+
+/* ── Count indicator ── */
+.filter-showing {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 2rem;
+}
+.filter-showing span {
+  color: var(--purple-400);
+  font-weight: 500;
+}
+
+/* ── Grid ── */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* ── Empty state ── */
+.projects-empty {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.projects-empty-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}

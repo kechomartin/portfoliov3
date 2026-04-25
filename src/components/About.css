@@ -1,0 +1,63 @@
+.about-section { padding: 5rem 0; }
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+@media (max-width: 700px) {
+  .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+}
+
+.about-avatar-wrap { display: flex; justify-content: center; }
+
+.about-avatar {
+  aspect-ratio: 1;
+  max-width: 340px;
+  width: 100%;
+  border-radius: 20px;
+  background: var(--bg-card2);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.about-glow {
+  position: absolute;
+  width: 200px; height: 200px;
+  border-radius: 50%;
+  background: var(--purple-600);
+  filter: blur(80px);
+  opacity: 0.35;
+}
+.about-emoji {
+  position: relative;
+  font-size: 5rem;
+}
+
+.about-text p {
+  color: var(--muted);
+  line-height: 1.8;
+  font-size: 0.98rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.about-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 1.5rem;
+}
+.about-skill {
+  background: var(--bg-card2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  color: var(--purple-100);
+  font-weight: 400;
+}
