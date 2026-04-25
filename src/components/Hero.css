@@ -1,6 +1,12 @@
 .hero {
   padding: 7rem 0 5rem;
   position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: x-large;
 }
 
 /* ── Orbs ── */
