@@ -1,5 +1,6 @@
 // ── src/data/portfolio.js ──
-// Edit ALL your personal content here. No need to touch components.
+// Edit ALL 
+import wagonway from '../assets/wagonway.png';
 
 export const personal = {
   name:            'Kecho',
@@ -66,10 +67,10 @@ export const projects = [
     link: '#',
   },
   {
-    id: 3, category: 'software', icon: '🌐', thumbIndex: 3,
-    tags: ['React', 'Node.js', 'PostgreSQL'],
-    title: 'Inventory Management SaaS',
-    description: 'Full-stack SaaS platform for SMEs to track inventory in real-time. Features role-based access, reporting modules, and REST API integrations.',
+    id: 3, category: 'software', icon: wagonway, thumbIndex: 3,
+    tags: ['React', 'Node.js', 'mySQL'],
+    title: 'Car Selling Platform',
+    description: 'Fully functional car selling platform with real-time inventory management and REST API integrations.',
     link: '#',
   },
   {

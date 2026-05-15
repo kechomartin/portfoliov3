@@ -15,8 +15,15 @@ export default function Projects() {
     [activeFilter]
   );
 
-  const countFor = (key) =>
-    key === 'all' ? projects.length : projects.filter((p) => p.category === key).length;
+  const categoryCounts = useMemo(() => {
+    const counts = { all: projects.length };
+    projects.forEach((p) => {
+      if (p.category) {
+        counts[p.category] = (counts[p.category] || 0) + 1;
+      }
+    });
+    return counts;
+  }, []);
 
   return (
     <section className="projects-section" id="projects">
@@ -38,10 +45,17 @@ export default function Projects() {
               className={`filter-btn${activeFilter === cat.key ? ' filter-btn-active' : ''}`}
               onClick={() => setActiveFilter(cat.key)}
             >
-              {cat.icon && <span>{cat.icon} </span>}
+              {/* 3. Safe Icon Rendering: Handles both emojis and imported image assets */}
+              {cat.icon && (
+                typeof cat.icon === 'string' && !cat.icon.includes('/') ? (
+                  <span>{cat.icon} </span>
+                ) : (
+                  <img src={cat.icon} alt="" className="filter-btn-img" />
+                )
+              )}
               {cat.label}
               <span className={`filter-count${activeFilter === cat.key ? ' filter-count-active' : ''}`}>
-                {countFor(cat.key)}
+                {categoryCounts[cat.key] || 0}
               </span>
             </button>
           ))}

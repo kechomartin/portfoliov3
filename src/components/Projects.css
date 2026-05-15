@@ -76,3 +76,9 @@
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
+.project-icon-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
