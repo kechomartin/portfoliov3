@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfoliov3/static/css/main.8382ed78.css",
-    "main.js": "/portfoliov3/static/js/main.9bacfc2b.js",
+    "main.js": "/portfoliov3/static/js/main.d0c2a0e8.js",
     "static/media/wagonway.png": "/portfoliov3/static/media/wagonway.fef1d675e0e15897a0b6.png",
     "index.html": "/portfoliov3/index.html",
     "main.8382ed78.css.map": "/portfoliov3/static/css/main.8382ed78.css.map",
-    "main.9bacfc2b.js.map": "/portfoliov3/static/js/main.9bacfc2b.js.map"
+    "main.d0c2a0e8.js.map": "/portfoliov3/static/js/main.d0c2a0e8.js.map"
   },
   "entrypoints": [
     "static/css/main.8382ed78.css",
-    "static/js/main.9bacfc2b.js"
+    "static/js/main.d0c2a0e8.js"
   ]
 }
