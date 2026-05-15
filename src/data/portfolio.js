@@ -115,11 +115,4 @@ export const projects = [
     description: 'Cloud-native event processing system using Kubernetes and Docker, handling 100K+ events per second with auto-scaling capabilities.',
     link: '#',
   },
-  {
-    id: 10, category: 'ml', icon: '🧠', thumbIndex: 10,
-    tags: ['Deep Learning', 'Python', 'TensorFlow'],
-    title: 'Image Recognition System',
-    description: 'Convolutional neural network for image classification, achieving 95% accuracy on a custom dataset. Integrated into a mobile app for real-time object detection.',
-    link: '#',
-  }
 ];
