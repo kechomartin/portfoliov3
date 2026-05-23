@@ -6,7 +6,7 @@ export default function ProjectCard({ project }) {
     <a href={project.link} className="project-card">
       <div className={`project-thumb project-thumb-${project.thumbIndex}`}>
         
-        {/* Updated: Safely check if icon is a local image asset/URL or an emoji string */}
+        {}
         <div className="project-icon">
           {typeof project.icon === 'string' && !project.icon.includes('/') ? (
             project.icon
