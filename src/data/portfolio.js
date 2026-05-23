@@ -51,11 +51,11 @@ export const filterCategories = [
 
 export const projects = [
   {
-    id: 1, category: 'analytics', icon: '📈', thumbIndex: 1,
-    tags: ['Python', 'Power BI', 'SQL'],
-    title: 'Sales Analytics Dashboard',
-    description: 'Real-time sales intelligence platform processing 2M+ rows daily. Built ETL pipelines and interactive dashboards used by the executive team.',
-    link: '#',
+    id: 1, category: 'software', icon: '📈', thumbIndex: 1,
+    tags: ['REACT', 'NODE.JS', 'SQL'],
+    title: 'An Online Art Gallery',
+    description: 'A virtual online art gallery showcasing diverse artistic works with seamless browsing and purchasing experiences.',
+    link: 'https://kechomartin.github.io/VanGoVirtual/',
   },
   {
     id: 2, category: 'ml', icon: '🤖', thumbIndex: 2,
