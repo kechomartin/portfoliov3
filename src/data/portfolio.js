@@ -1,5 +1,3 @@
-// ── src/data/portfolio.js ──
-// Edit ALL 
 import wagonway from '../assets/wagonway.png';
 
 export const personal = {
