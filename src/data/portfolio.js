@@ -71,7 +71,7 @@ export const projects = [
     tags: ['React', 'Node.js', 'mySQL'],
     title: 'Car Selling Platform',
     description: 'Fully functional car selling platform with real-time inventory management and REST API integrations.',
-    link: '#',
+    link: 'https://kechomartin.github.io/wagon-way/',
   },
   {
     id: 4, category: 'analytics', icon: '📊', thumbIndex: 4,
