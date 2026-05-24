@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/portfoliov3/static/css/main.8382ed78.css",
-    "main.js": "/portfoliov3/static/js/main.5c40676c.js",
+    "main.js": "/portfoliov3/static/js/main.a3599f91.js",
+    "static/media/turning data to decisions.png": "/portfoliov3/static/media/turning data to decisions.048df33957bac387255c.png",
     "static/media/wagonway.png": "/portfoliov3/static/media/wagonway.fef1d675e0e15897a0b6.png",
     "index.html": "/portfoliov3/index.html",
     "main.8382ed78.css.map": "/portfoliov3/static/css/main.8382ed78.css.map",
-    "main.5c40676c.js.map": "/portfoliov3/static/js/main.5c40676c.js.map"
+    "main.a3599f91.js.map": "/portfoliov3/static/js/main.a3599f91.js.map"
   },
   "entrypoints": [
     "static/css/main.8382ed78.css",
-    "static/js/main.5c40676c.js"
+    "static/js/main.a3599f91.js"
   ]
 }
