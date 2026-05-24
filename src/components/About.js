@@ -2,6 +2,7 @@ import React from 'react';
 import { aboutSkills } from '../data/portfolio';
 import useFadeIn from '../hooks/useFadeIn';
 import './About.css';
+import turningDataToDecisions from '../assets/turning data to decisions.png';
 
 export default function About() {
   const ref = useFadeIn();
@@ -12,11 +13,13 @@ export default function About() {
         <div ref={ref} className="about-grid fade-up">
 
           <div className="about-avatar-wrap">
-            <div className="about-avatar">
-              <div className="about-glow" />
-              <span className="about-emoji">👨‍💻</span>
-            </div>
-          </div>
+           <div className="about-avatar">
+           <div className="about-glow" />
+           <span className="about-emoji">
+            <img src={turningDataToDecisions} alt="Data visualization graphics" />
+          </span>
+         </div>
+      </div>
 
           <div className="about-text">
             <p className="section-label">About Me</p>
