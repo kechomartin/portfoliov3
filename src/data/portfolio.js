@@ -60,8 +60,8 @@ export const projects = [
   {
     id: 2, category: 'ml', icon: '🤖', thumbIndex: 2,
     tags: ['ML', 'TensorFlow', 'Python'],
-    title: 'Churn Prediction Model',
-    description: 'Machine learning model predicting customer churn with 91% accuracy. Reduced churn by 23% within the first quarter of deployment.',
+    title: 'AI-Crypto-Advisor',
+    description: 'An AI-powered cryptocurrency investment advisor providing real-time market analysis and personalized portfolio recommendations.',
     link: '#',
   },
   {
