@@ -65,8 +65,8 @@ A machine learning model that predicts customer churn with **91% accuracy**. Dep
 
 ---
 
-### 🌐 Inventory Management SaaS
-**Stack:** React · Node.js · PostgreSQL
+### 🌐 Car Selling Platform 
+stack:** React · Node.js · PostgreSQL
 
 A full-stack SaaS platform built for SMEs to manage inventory in real time. Features include role-based access control, automated low-stock alerts, a reporting module, and third-party REST API integrations for logistics and accounting systems.
 
