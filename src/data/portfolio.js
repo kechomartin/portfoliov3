@@ -59,10 +59,10 @@ export const projects = [
   },
   {
     id: 2, category: 'ml', icon: '🤖', thumbIndex: 2,
-    tags: ['ML', 'TensorFlow', 'Python'],
+    tags: ['ML', 'Nodejs', 'REACT'],
     title: 'AI-Crypto-Advisor',
     description: 'An AI-powered cryptocurrency investment advisor providing real-time market analysis and personalized portfolio recommendations.',
-    link: '#',
+    link: 'https://kechomartin.github.io/AI-powered-crypto-advisor/',
   },
   {
     id: 3, category: 'software', icon: wagonway, thumbIndex: 3,
