@@ -73,9 +73,9 @@ export const projects = [
   },
   {
     id: 4, category: 'analytics', icon: '📊', thumbIndex: 4,
-    tags: ['Tableau', 'R', 'BigQuery'],
-    title: 'Financial Risk Analytics',
-    description: 'End-to-end risk analysis framework for a financial services firm, including statistical models and executive-level Tableau reporting suite.',
+    tags: ['Tableau', 'Python', 'BigQuery', 'FastAPI'],
+    title: 'Library Management System',
+    description: 'A comprehensive library management system with automated cataloging, circulation tracking, and reporting capabilities.',
     link: '#',
   },
   {
