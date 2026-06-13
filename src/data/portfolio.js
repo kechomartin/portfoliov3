@@ -73,10 +73,10 @@ export const projects = [
   },
   {
     id: 4, category: 'analytics', icon: '📊', thumbIndex: 4,
-    tags: ['Tableau', 'Python', 'BigQuery', 'FastAPI'],
+    tags: ['Tableau', 'Python', 'BigQuery', 'FastAPI', 'npm', 'React'],
     title: 'Library Management System',
     description: 'A comprehensive library management system with automated cataloging, circulation tracking, and reporting capabilities.',
-    link: '#',
+    link: 'https://kechomartin.github.io/Library-Management-System/',
   },
   {
     id: 5, category: 'ml', icon: '🔍', thumbIndex: 5,
