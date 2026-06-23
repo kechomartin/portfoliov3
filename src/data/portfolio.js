@@ -81,8 +81,8 @@ export const projects = [
   {
     id: 5, category: 'ml', icon: '🔍', thumbIndex: 5,
     tags: ['NLP', 'Python', 'FastAPI'],
-    title: 'Sentiment Analysis API',
-    description: 'Multi-language sentiment analysis microservice handling 10K requests/min. Integrated into e-commerce platforms for real-time customer feedback analysis.',
+    title: 'Garbage Collection Platform',
+    description: 'A platform for managing and optimizing garbage collection processes, including route planning and waste tracking.',
     link: '#',
   },
   {
