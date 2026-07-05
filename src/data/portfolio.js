@@ -80,10 +80,10 @@ export const projects = [
   },
   {
     id: 5, category: 'ml', icon: '🔍', thumbIndex: 5,
-    tags: ['NLP', 'Python', 'FastAPI'],
+    tags: ['JavaScript', 'Python', 'FastAPI'],
     title: 'Garbage Collection Platform',
     description: 'A platform for managing and optimizing garbage collection processes, including route planning and waste tracking.',
-    link: '#',
+    link: 'https://kechomartin.github.io/Garbage-collection-Web/',
   },
   {
     id: 6, category: 'cloud', icon: '☁️', thumbIndex: 6,
