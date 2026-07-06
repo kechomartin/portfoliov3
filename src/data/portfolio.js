@@ -11,9 +11,9 @@ export const personal = {
   whatsapp:        '254748905258',   
   whatsappMessage: "Hi! I saw your portfolio and I'd love to chat.",
   social: {
-    github:   '#',
+    github:   'https://github.com/kechomartin',
     linkedin: '#',
-    twitter:  '#',
+    twitter:  'https://x.com/kecho_martin',
   },
   footerCopy: '© 2025 Martin Kecho Portfolio · Data Analytics & Software Engineer',
 };
